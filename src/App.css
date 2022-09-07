@@ -10,8 +10,19 @@
   color: white;
 }
 
-@media (min-width: 400px) and (max-width: 800px) {
+/* common */
+/* small screen */
+
+/* medium screen */
+@media (min-width: 600px) {
   .App {
-    background: skyblue;
+    background-color: pink;
+  }
+}
+
+/* small screen */
+@media (min-width: 800px) {
+  .App {
+    background-color: yellow;
   }
 }
