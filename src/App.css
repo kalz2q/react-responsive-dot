@@ -1,28 +1,32 @@
-.App {
-  text-align: center;
-  background-color: #282c34;
-  min-height: 100vh;
+/* .App {
+  /* text-align: center; */
+/* background-color: #282c34; */
+/* min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
-}
+  color: white; */
 
 /* common */
 /* small screen */
+body {
+  margin: 0;
+}
+.image {
+  background: pink;
+  height: 100px;
+}
 
+.text {
+  background: silver;
+  height: 100px;
+}
 /* medium screen */
 @media (min-width: 600px) {
-  .App {
-    background-color: pink;
-  }
 }
 
 /* small screen */
 @media (min-width: 800px) {
-  .App {
-    background-color: yellow;
-  }
 }

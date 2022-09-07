@@ -1,13 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <h1>title</h1>
-      <p>こににちゃ。ぼくはろｐぼっとです。こににちゃ。ぼくはろｐぼっとです。こににちゃ。ぼくはろｐぼっとです。こににちゃ。ぼくはろｐぼっとです。こににちゃ。ぼくはろｐぼっとです。こににちゃ。ぼくはろｐぼっとです。こににちゃ。ぼくはろｐぼっとです。こににちゃ。ぼくはろｐぼっとです。</p>
-    </div>
+    <section>
+      <div className="image">image</div>
+      <div className="text">text</div>
+    </section>
   );
 }
 
